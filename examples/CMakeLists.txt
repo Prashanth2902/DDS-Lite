@@ -1,0 +1,5 @@
+add_executable(mcast_send_demo mcast_send_demo.cpp)
+target_link_libraries(mcast_send_demo PRIVATE ddslite)
+
+add_executable(mcast_receive_demo mcast_receive_demo.cpp)
+target_link_libraries(mcast_receive_demo PRIVATE ddslite)
