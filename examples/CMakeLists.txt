@@ -3,3 +3,9 @@ target_link_libraries(mcast_send_demo PRIVATE ddslite)
 
 add_executable(mcast_receive_demo mcast_receive_demo.cpp)
 target_link_libraries(mcast_receive_demo PRIVATE ddslite)
+
+add_executable(discovery_node_a_demo discovery_node_a_demo.cpp)
+target_link_libraries(discovery_node_a_demo PRIVATE ddslite)
+
+add_executable(discovery_node_b_demo discovery_node_b_demo.cpp)
+target_link_libraries(discovery_node_b_demo PRIVATE ddslite)
